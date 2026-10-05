@@ -384,12 +384,13 @@ export function Thread() {
                     damping: 30,
                   }}
                 >
-                  <LangGraphLogoSVG
-                    width={32}
-                    height={32}
-                  />
+                  <img
+  			src="/rock-n-vows-logo.png"
+  			alt="Rock ’n’ Vows logo"
+  			className="h-8 w-8 object-contain"
+	           />
                   <span className="text-xl font-semibold tracking-tight">
-                    Agent Chat
+                    Rock ’n’ Vows
                   </span>
                 </motion.button>
                 <ConnectedHost apiUrl={stream.apiUrl} />
@@ -461,9 +462,13 @@ export function Thread() {
                 <div className="sticky bottom-0 flex flex-col items-center gap-8 bg-white">
                   {!chatStarted && (
                     <div className="flex items-center gap-3">
-                      <LangGraphLogoSVG className="h-8 flex-shrink-0" />
+                     <img
+ 			 src="/rock-n-vows-logo.png"
+  			 alt="Rock ’n’ Vows logo"
+ 			 className="h-10 w-10 object-contain"
+		     />
                       <h1 className="text-2xl font-semibold tracking-tight">
-                        Agent Chat
+                        Rock ’n’ Vows
                       </h1>
                     </div>
                   )}
